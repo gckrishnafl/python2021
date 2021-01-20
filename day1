@@ -1,0 +1,4 @@
+# day1 hello world 
+print('Hello World\nHello World\nHello World')
+
+print ("Hello " + "2021")
