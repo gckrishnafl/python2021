@@ -1,0 +1,28 @@
+from replit import clear
+#HINT: You can call clear() to clear the output in the console.
+from art import logo
+print(logo)
+def auction():
+  user_input = input("What is your name?\n")
+  amount = int(input("What is your bid amount?\n"))
+  bd_dict = {}
+  bd_dict["name"] = user_input
+  bd_dict["bid_amount"] = amount
+auction()
+
+
+next = True
+while next:
+  other_bidders = input("Is there any other bidders? yes or no \n")
+  if other_bidders == "yes":
+    clear()
+    auction()
+  elif other_bidders == "no":
+      #winner = max(bd_dict, name=bd_dict)
+      #print(winner)
+     
+   
+
+
+
+
